@@ -41,7 +41,7 @@ class ScaledSizeUtil {
   }) {
     _orientation = orientation;
     _ui = size;
-    allowTextScaling = allowTextScaling;
+    _allowTextScaling = allowTextScaling;
 
     /// Sets the device _screenWidth and _screenHeight
     _screenWidth = constraints.maxWidth;
